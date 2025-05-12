@@ -1,36 +1,34 @@
-# CO2 Emissions Data Analysis
 
-This project demonstrates how to build a complete data analysis pipeline using Python. The workflow includes web scraping, data cleaning, exploratory data analysis, and data visualization using real-world CO2 emissions data for the United States.
+# Books to Scrape - Data Analysis 📊
 
-## Project Purpose
+This project demonstrates a web scraping and data analysis pipeline using data from the website [Books to Scrape](https://books.toscrape.com/).
 
-The purpose of this project is to:
-- Practice web scraping using `requests` and `BeautifulSoup`
-- Clean and preprocess raw data using `pandas`
-- Analyze CO2 emission trends across different years and decades
-- Visualize insights using `seaborn` with informative plots and data annotations
+## Project Overview
+- Scrape book data (Title, Price, Availability, Rating, Category) from **5 pages** (100 books total).
+- Clean and process the scraped data.
+- Analyze the data to answer 4 key questions.
+- Visualize insights using Seaborn with labeled plots and styled charts.
 
-## Repository Contents
-
-- `CO2_Emissions_Analysis.ipynb`  
-  Jupyter Notebook containing:
-  - Step-by-step code for scraping and cleaning the data
-  - Four key data analysis questions answered
-  - Visualizations of two results using Seaborn
-  - Markdown cells for explanation and context
-
-- `README.md`  
-  You’re reading it! Provides an overview of the project and its structure.
+## Files in this Repository
+- **books_to_scrape_analysis.ipynb**: Jupyter Notebook containing the scraping code, data analysis, and visualizations.
+- **README.md**: Project overview and description.
 
 ## Data Source
+- Website: [https://books.toscrape.com/](https://books.toscrape.com/)
 
-All data was scraped from [Worldometer - U.S. CO2 Emissions](https://www.worldometers.info/co2-emissions/us-co2-emissions/), a statistics website that tracks global data in real time.
+## Analysis Questions Answered
+1. What is the average price of books?
+2. How are books distributed across star ratings?
+3. Which category has the most books?
+4. How does the price of books vary with star ratings?
 
-## Key Learnings
-
-- How to programmatically collect and clean real-world data
-- How to analyze time series environmental data
-- How to create stylish and annotated data visualizations using Seaborn
+## Libraries Used
+- requests
+- BeautifulSoup (bs4)
+- pandas
+- seaborn
+- matplotlib
 
 ---
 
+**Note:** This website is intended for scraping practice and is publicly available for educational purposes.
